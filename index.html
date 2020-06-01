@@ -34,10 +34,18 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+<!--Jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+
+
 </head>
 
 <body id="top">
-
     <!-- header 
    ================================================== -->
    <header id="header" class="row">   
@@ -147,8 +155,9 @@
                     para   ayudar   en   primera   medida   el   sustento   alimentario   de   familias
                     víctimas   de   la   violencia,   madres   cabeza   de   hogar,   trabajadores   del
                     sector   informal,   recicladores   y   personas   vinculadas   a   trabajos   de
-                    servicios   de   aseo   por   días.   Iniciamos   en   Altos   de   Cazucá,   Soacha   en
-                    donde a corte del 10 de mayo del 2020 hemos logrado beneficiar pormedio   de   donantes   individuales   a   515   personas   pertenecientes   a   98
+                    servicios   de   aseo   por   días.  <br/><br/> Iniciamos   en   Altos   de   Cazucá,   Soacha   en
+                    donde a corte del 10 de mayo del 2020 hemos logrado beneficiar pormedio   de   donantes   individuales   
+                    a   515   personas   pertenecientes   a   98
                     familias.   Nuestro   recaudo   en   tan   solo   24   días   es   de   $13,102,900.
                     Además hemos hecho alianzas institucionales que permitieron alcanzar a
                     459 personas más.
@@ -433,8 +442,34 @@
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-2.1.3.min.js"></script>
+<!--Jquery
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+-->
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <div id="WAButton"></div>
+    <script>
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+                phone: '573112518365', //WhatsApp Business phone number International format-
+                //Get it with Toky at https://toky.co/en/features/whatsapp.
+                headerTitle: 'Contáctanos por WhatsApp!', //Popup Title
+                popupMessage: '¡hola! ¿como es tu nombre?', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+                //headerColor: 'crimson', //Custom header color
+                //backgroundColor: 'crimson', //Custom background button color
+                position: "left"    
+            });
+        });
+    </script>
 
 </body>
 
