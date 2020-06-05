@@ -68,7 +68,7 @@ body {
 
 body {
   background: #141515;
-  font-family: "muli-regular", sans-serif;
+  font-family: Open Sans;
   font-size: 1.6rem;
   line-height: 1.875;
   color: #767676;
@@ -180,7 +180,7 @@ em, i {
   font-family: "muli-italic", sans-serif;
 }
 strong, b {
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli-bold", Open Sans;
 }
 
 small {
@@ -231,7 +231,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli-bold", Open Sans;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: .05rem;
@@ -441,7 +441,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "muli-regular", sans-serif;
+  font-family: Open Sans;
 }
 
 th,
@@ -578,7 +578,7 @@ select {
   border: 0;
   outline: none;
   color: #333333;
-  font-family: "muli-regular", sans-serif;
+  font-family: Open Sans;
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
@@ -1339,7 +1339,7 @@ h1.intro-header::before {
     width: 100%;
     right: auto;
     left: 0;
-    background-color: #111111d4;
+    background-color: #DDDDDDBB;
     padding: 120px 40px 54px;
   }
   #header-nav-wrap .header-main-nav {
@@ -2150,7 +2150,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .pricing-table .plan-block .plan-block-features li span {
   color: #39b54a;
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli-bold", Open Sans;
 }
 
 .pricing-table .plan-block.primary {
@@ -2295,7 +2295,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #testimonial-slider p {
-  font-family: "muli-regular", sans-serif;
+  font-family: Open Sans;
   font-size: 3.2rem;
   line-height: 1.5;
   color: #303030;
@@ -2304,7 +2304,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #testimonial-slider p::before,
 #testimonial-slider p::after {
   display: inline-block;
-  font-family: "muli-regular", serif;
+  font-family: Open Sans;
   font-size: 3.6rem;
   line-height: 1;
   position: relative;
@@ -2344,7 +2344,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
-  font-family: "muli-bold", sans-serif;
+  font-family: "muli-bold", Open Sans;
   font-size: 1.6rem;
   line-height: 1.313;
   letter-spacing: 0;
