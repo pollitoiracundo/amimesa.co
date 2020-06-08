@@ -1144,9 +1144,9 @@ h1.intro-header::before {
   position: absolute;
   left: 40px;
   top: 50%;
-  -webkit-transform: translateY(-50%);
+  /*-webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   z-index: 501;
