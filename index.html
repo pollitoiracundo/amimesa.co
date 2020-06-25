@@ -34,64 +34,96 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-<!--Jquery-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<!--Floating WhatsApp css-->
-<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
-<!--Floating WhatsApp javascript-->
-<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--Floating WhatsApp css-->
+    <link rel="stylesheet"
+        href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+    <!--Floating WhatsApp javascript-->
+    <script type="text/javascript"
+        src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
 
 
 
 </head>
 
 <body id="top">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0&appId=1823454124453405&autoLogAppEvents=1" nonce="3V4IJfAd"></script>
     <!-- header 
    ================================================== -->
-   <header id="header" class="row">   
+    <header id="header" class="row" style="max-width: 100% !important;">
 
-   		<!-- <div class="header-logo">
+        <!-- <div class="header-logo">
 	        <a href="index.html">Amimesa</a>
 	    </div>-->
         <div class="header-logo2">
-	        <img src='images/logo.png' width="150">
-	    </div>
-	   	<nav id="header-nav-wrap">
-			<ul class="header-main-nav">
-				<li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">¿Qué es Amimesa?</a></li>
-				<li><a class="smoothscroll"  href="#testimonials" title="testimonials">Testimonios</a></li>
-				<!-- <li><a class="smoothscroll"  href="#download" title="download">Download</a></li>	-->
-			</ul>
+            <img src='images/logo.png' width="150">
+        </div>
+        <nav id="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current">
+                    <a class="smoothscroll" href="#home" title="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#about" title="about">
+                        ¿Por qué?
+                    </a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#comofunciona" title="comofunciona">
+                        ¿Cómo funciona?
+                    </a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#comofunciona" title="comofunciona">
+                        Testimonios
+                    </a>
+                </li>
+                <li>
+                    <a class="smoothscroll" href="#comofunciona" title="comofunciona">
+                        Impacto
+                    </a>
+                </li>
+                <!-- <li><a class="smoothscroll"  href="#download" title="download">Download</a></li>	-->
+            </ul>
 
-            <button onclick="$('.floating-wpp-popup').addClass('active')" title="sign-up" class="button button-primary cta">Haz Match</button>
-		</nav>
+            <button onclick="$('.floating-wpp-popup').addClass('active')" title="sign-up"
+                class="button button-primary cta">Inscríbete</button>
+        </nav>
 
-		<a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
-   	
-   </header> <!-- /header -->
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- /header -->
 
 
-   <!-- home
+    <!-- home
    ================================================== -->
-   <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=1700>
+    <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000
+        data-natural-height=1700>
 
-        <div class="overlay"></div>
-        <div class="home-content">        
 
-            <div class="row contents">                     
+        <div class="home-content">
+
+            <div class="row contents">
                 <div class="home-content-left">
 
                     <h3 data-aos="fade-up">AMIMESA</h3>
 
-                    <h1 data-aos="fade-up">Un match por la equidad, un match por la esperanza
-                        
+                    <h1 data-aos="fade-up">
+                        <mark>Conectamos a familias y donantes
+                            de forma segura con seguimiento
+                        </mark>
                     </h1>
 
                     <div class="buttons">
-                        <button onclick="$('.floating-wpp-popup').addClass('active')" class="smoothscroll button stroke">
+                        <button onclick="$('.floating-wpp-popup').addClass('active')"
+                            class="smoothscroll button stroke">
                             <span class="icon-play" aria-hidden="true"></span>
-                            Hacer match y donar
+                            QUIERO SABER MÁS
                         </button>
                         <!--
                         <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a" data-lity class="button stroke">
@@ -99,7 +131,7 @@
                             Watch Video
                         </a>
                         -->
-                    </div>                                         
+                    </div>
 
                 </div>
                 <!--
@@ -136,7 +168,7 @@
             </a>
         </div>
 
-    </section> <!-- end home -->  
+    </section> <!-- end home -->
 
 
     <!-- about
@@ -150,100 +182,103 @@
             </div>
             <div class="col-eight">
                 <p class="lead" data-aos="fade-up">
-                    Amimesa ha cambiado la forma de hacer donaciones 
-                    mediante el rastreo y seguimiento directo de los 
-                    apoyos que hacen los donantes a las familias, tejiendo 
-                    redes con los supermercados locales y conectando 
-                    mediante un match a donantes y beneficiarios. Brindamos 
-                    información detallada al donante sobre el contexto de la 
-                    familia y del destino del dinero donado, a partir de 
-                    evidencias como factura de compra y foto de los alimentados 
-                    adquiridos. Además, el donante tiene la posibilidad de 
+                    Amimesa ha cambiado la forma de hacer donaciones
+                    mediante el rastreo y seguimiento directo de los
+                    apoyos que hacen los donantes a las familias, tejiendo
+                    redes con los supermercados locales y conectando
+                    mediante un match a donantes y beneficiarios. Brindamos
+                    información detallada al donante sobre el contexto de la
+                    familia y del destino del dinero donado, a partir de
+                    evidencias como factura de compra y foto de los alimentados
+                    adquiridos. Además, el donante tiene la posibilidad de
                     comprobar el proceso con la familia beneficiada.
                 </p>
-            </div>                       
-            
+            </div>
+
         </div>
-    
+    </section>
+    <section id="comofunciona">
         <div class="row about-how">
-          
-            <h1 class="intro-header" data-aos="fade-up">¿Cómo funciona?</h1>           
+
+            <h1 class="intro-header" data-aos="fade-up">¿Cómo funciona?</h1>
 
             <div class="about-how-content" data-aos="fade-up">
                 <div class="about-how-steps block-1-2 block-tab-full group">
 
                     <div class="bgrid step" data-item="1">
                         <h3>Hacer match</h3>
-                        <p>Para comenzar solo deber hacer click en el botón <a href="">Haz match aquí</a> para encontrar una familia a quien quieres apoyar. 
-                        </p> 
+                        <p>Para comenzar solo deber hacer click en el botón <a href="">Haz match aquí</a> para encontrar
+                            una familia a quien quieres apoyar.
+                        </p>
                     </div>
 
                     <div class="bgrid step" data-item="2">
                         <h3>Entregar tu ayuda</h3>
                         <p>Para hacerlo debes girar el valor de tu apoyo en este link.
-                        </p> 
-                    </div>               
-               
+                        </p>
+                    </div>
+
                     <div class="bgrid step" data-item="3">
                         <h3>Enviar confirmación</h3>
-                        <p>Cuando envíes tu ayuda dejanos tu pantallazo aquí para que nuestros voluntarios entreguen la ayuda.
-                        </p> 
+                        <p>Cuando envíes tu ayuda dejanos tu pantallazo aquí para que nuestros voluntarios entreguen la
+                            ayuda.
+                        </p>
                     </div>
 
                     <div class="bgrid step" data-item="4">
                         <h3>Recibir evidencias</h3>
-                        <p>Recibirás evidencias de la familia que apoyaste. 
-                        </p> 
-                    </div>  
+                        <p>Recibirás evidencias de la familia que apoyaste.
+                        </p>
+                    </div>
 
                     <div class="bgrid step" data-item="5">
                         <h3>Habla con tu match</h3>
-                        <p>Contacta tu match y verifica que todoestá en orden. 
-                        </p> 
-                    </div>  
+                        <p>Contacta tu match y verifica que todoestá en orden.
+                        </p>
+                    </div>
 
                     <div class="bgrid step" data-item="6">
                         <h3>Comparte</h3>
-                        <p>Si compartes tu experiencia otros pueden ayudar. 
-                        </p> 
-                    </div>  
+                        <p>Si compartes tu experiencia otros pueden ayudar.
+                        </p>
+                    </div>
 
-                </div>           
-           </div> <!-- end about-how-content -->
+                </div>
+            </div> <!-- end about-how-content -->
 
         </div> <!-- end about-how -->
 
         <div class="row about-intro">
 
-            
+
             <div class="col-twelve">
                 <p class="lead" data-aos="fade-up">
-                    Iniciamos nuestra labor en Altos de Cazucá, Soacha,  y hasta 
-                    el 4 de junio, hemos logrado beneficiar a 1259 personas pertenecientes a 268 familias, 
-                    gracias al apoyo de donantes individuales. Nuestro recaudo en tan solo 24 días 
-                    fue de $16.562.900. Además, hemos hecho alianzas institucionales que nos han 
+                    Iniciamos nuestra labor en Altos de Cazucá, Soacha, y hasta
+                    el 4 de junio, hemos logrado beneficiar a 1259 personas pertenecientes a 268 familias,
+                    gracias al apoyo de donantes individuales. Nuestro recaudo en tan solo 24 días
+                    fue de $16.562.900. Además, hemos hecho alianzas institucionales que nos han
                     permitido auxiliar a 459 personas más.
                 </p>
-            </div>                       
-            
+            </div>
+
         </div>
 
 
 
 
-      
-        
-    </section> <!-- end about -->  
-   
+
+
+    </section> <!-- end about -->
+
 
 
     <!-- Testimonials Section
-    ================================================== 
+    ================================================== -->
     <section id="testimonials">
 
         <div class="row">
             <div class="col-twelve">
-                <h1 class="intro-header" data-aos="fade-up">What They Say About Our App.</h1>
+                <h1 class="intro-header" data-aos="fade-up">Testimonios Amimesa</h1>
             </div>   		
         </div>   	
 
@@ -254,20 +289,12 @@
                 <div class="slides owl-carousel">
 
                     <div>
-                        <p>
-                        Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                        to do what you believe is great work. And the only way to do great work is to love what you do.
-                        If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                        </p> 
-
-                        <div class="testimonial-author">
-                                <img src="images/avatars/user-02.jpg" alt="Author image">
-                                <div class="author-info">
-                                    Steve Jobs
-                                    <span class="position">CEO, Apple.</span>
-                                </div>
-                        </div>                 
+                        <div class="fb-post" data-href="https://www.facebook.com/Amimesa.co/posts/135302814821489" data-show-text="true" data-width=""><blockquote cite="https://developers.facebook.com/Amimesa.co/posts/135302814821489" class="fb-xfbml-parse-ignore"><p>Hola buenas tardes publico esto para decirles infinitamente agradecida con ustedes por su generosidad muchas gracias por...</p>Publicado por <a href="https://www.facebook.com/andreamargarita.cifuentes">Andrea Margarita Cifuentes</a> en&nbsp;<a href="https://developers.facebook.com/Amimesa.co/posts/135302814821489">Jueves, 4 de junio de 2020</a></blockquote></div>                
                     </div> 
+
+                    <div>
+                        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FAmimesa.co%2Fposts%2F135302814821489&width=500" width="500" height="631" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
 
                     <div>
                         <p>
@@ -292,7 +319,7 @@
         </div>
 
     </section>
--->
+
 
     <!-- download
     ================================================== 
@@ -314,7 +341,7 @@
             </div>
         </div>
 
-    </section> <!-- end download -->    
+    </section> <!-- end download -->
 
 
     <!-- footer
@@ -322,9 +349,9 @@
     <footer>
 
         <div class="footer-main">
-            <div class="row">  
+            <div class="row">
 
-                <div class="col-three md-1-3 tab-full footer-info">            
+                <div class="col-three md-1-3 tab-full footer-info">
 
                     <div class="footer-logos"></div>
 
@@ -339,52 +366,54 @@
                         <li>
                             <a href="https://instagram.com/a_mimesa"><i class="fa fa-instagram"></i></a>
                         </li>
-                        
+
                     </ul>
-                    
-                    
+
+
                 </div> <!-- end footer-info -->
 
-                
+
             </div> <!-- /row -->
         </div> <!-- end footer-main -->
 
 
-      <div class="footer-bottom">
+        <div class="footer-bottom">
 
-      	<div class="row">
+            <div class="row">
 
-      		<div class="col-twelve">
-	      		<div class="copyright">
-		         	<span>© Copyright AMIMESA 2020.</span> 
-		         			         	
-		         </div>
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright AMIMESA 2020.</span>
 
-		         <div id="go-top">
-		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
-		         </div>         
-	      	</div>
+                    </div>
 
-      	</div> <!-- end footer-bottom -->     	
+                    <div id="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
+                    </div>
+                </div>
 
-      </div>
+            </div> <!-- end footer-bottom -->
+
+        </div>
 
     </footer>
 
-    <div id="preloader"> 
-    	<div id="loader"></div>
-    </div>  
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
 
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-2.1.3.min.js"></script>
-<!--Jquery
+    <!--Jquery
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 -->
-<!--Floating WhatsApp css-->
-<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
-<!--Floating WhatsApp javascript-->
-<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+    <!--Floating WhatsApp css-->
+    <link rel="stylesheet"
+        href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+    <!--Floating WhatsApp javascript-->
+    <script type="text/javascript"
+        src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
 
 
     <script src="js/plugins.js"></script>
@@ -392,7 +421,7 @@
 
     <div id="WAButton"></div>
     <script>
-        $(function() {
+        $(function () {
             $('#WAButton').floatingWhatsApp({
                 phone: '573112518365', //WhatsApp Business phone number International format-
                 //Get it with Toky at https://toky.co/en/features/whatsapp.
@@ -402,7 +431,7 @@
                 buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
                 //headerColor: 'crimson', //Custom header color
                 //backgroundColor: 'crimson', //Custom background button color
-                position: "left"    
+                position: "left"
             });
         });
     </script>

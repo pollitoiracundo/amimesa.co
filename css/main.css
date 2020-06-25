@@ -281,8 +281,9 @@ dfn[title] {
 }
 
 mark {
-  background: #FFF49B;
-  color: #000;
+  background: #000000;
+  color: #FFF;
+  padding: 10px 10px;
 }
 
 hr {
@@ -780,8 +781,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #39b54a;
-  border-color: #39b54a;
+  background-color: #00524c;
+  border-color: #00524c;
   color: #FFFFFF;
 }
 
@@ -819,7 +820,7 @@ button.large,
 
 button.stroke,
 .button.stroke {
-  background: transparent !important;
+  background: #ff9015 !important;
   color: #a5a5a5 !important;
 }
 
@@ -1476,7 +1477,8 @@ h1.intro-header::before {
 
 .home-content-left .button.stroke {
   color: #ffffff !important;
-  border-color: #ffffff;
+  border-color: #ff9015;
+  background-color: #ff9015;
   margin: 0 .6rem 1.2rem;
   padding: 0 2.2rem;
   min-width: 188px;
@@ -1490,8 +1492,9 @@ h1.intro-header::before {
 
 .home-content-left .button.stroke:hover,
 .home-content-left .button.stroke:focus {
-  background-color: white !important;
-  color: #000000 !important;
+  background-color: #00524c !important;
+  color: #FFFFFF !important;
+  border-color: #00524c;
 }
 
 .home-image-right {
@@ -1832,10 +1835,17 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  *
  * ------------------------------------------------------------------- */
 
-#about {
-  min-height: 786px;
+ #about {
+  /*min-height: 786px;*/
   background: #ffffff;
-  padding-top: 18rem;
+  padding-top: 9rem;
+  overflow: hidden;
+}
+
+#comofunciona {
+  min-height: 786px;
+  background: #f0f0f0;
+  /*padding-top: 18rem;*/
   overflow: hidden;
 }
 
