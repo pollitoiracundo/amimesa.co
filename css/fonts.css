@@ -5,74 +5,6 @@
 
 
 /*
- * montserrat
-================================================================================ */
-
-@font-face {
-  font-family: "montserrat-black";
-  src: url("../fonts/montserrat/montserrat-black-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-black-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-extrabold";
-  src: url("../fonts/montserrat/montserrat-extrabold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-extrabold-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-bold";
-  src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-semibold";
-  src: url("../fonts/montserrat/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-semibold-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-medium";
-  src: url("../fonts/montserrat/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-medium-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-regular";
-  src: url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-light";
-  src: url("../fonts/montserrat/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-light-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-extralight";
-  src: url("../fonts/montserrat/montserrat-extralight-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-extralight-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-thin";
-  src: url("../fonts/montserrat/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-thin-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-
-/*
  * Muli
 ================================================================================ */
 
@@ -161,4 +93,137 @@
 }
 
 
+@font-face {
+  font-family: 'Yanone Kaffeesatz Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Yanone Kaffeesatz Regular'), url('../fonts/YanoneKaffeesatz-Regular.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Yanone Kaffeesatz Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Yanone Kaffeesatz Thin'), url('../fonts/YanoneKaffeesatz-Thin.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Yanone Kaffeesatz Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Yanone Kaffeesatz Light'), url('../fonts/YanoneKaffeesatz-Light.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Yanone Kaffeesatz Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Yanone Kaffeesatz Bold'), url('../fonts/YanoneKaffeesatz-Bold.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Open Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Regular'), url('../fonts/OpenSans-Regular.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans'), url('../fonts/OpenSans-Regular.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Italic'), url('../fonts/OpenSans-Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Light'), url('../fonts/OpenSans-Light.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Light Italic'), url('../fonts/OpenSans-LightItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans SemiBold'), url('../fonts/OpenSans-SemiBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans SemiBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans SemiBold Italic'), url('../fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Bold'), url('../fonts/OpenSans-Bold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Bold Italic'), url('../fonts/OpenSans-BoldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans ExtraBold'), url('../fonts/OpenSans-ExtraBold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans ExtraBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans ExtraBold Italic'), url('../fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans Light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Light Regular'), url('../fonts/OpenSans-Light-webfont.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Open Sans Condensed Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Condensed Bold'), url('../fonts/OpenSans-CondBold.woff') format('woff');
+    }
 /*# sourceMappingURL=fonts.css.map */
