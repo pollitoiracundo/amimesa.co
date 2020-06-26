@@ -797,8 +797,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #309a3f;
-  border-color: #309a3f;
+  background: #00ae8d;
+  border-color: #00ae8d;
 }
 
 button.full-width,
@@ -2417,10 +2417,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #testimonial-slider .owl-dots .owl-dot span {
-  width: 9px;
-  height: 9px;
+  width: 20px;
+  height: 20px;
   background-color: #959595;
-  margin: 9px 9px;
+  margin: 20px 20px;
   display: block;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
@@ -2432,7 +2432,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #testimonial-slider .owl-dots .owl-dot.active span,
 #testimonial-slider .owl-dots .owl-dot:hover span {
-  background-color: #39b54a;
+  background-color: #00ae8d;
 }
 
 
